@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    background-color: rgba(62, 62, 238);
+}
+.container{
+    background-color: #EEF4FF;
+    text-align: center;
+    width: 35vw;
+    margin: 15vh auto;
+    border-radius: 15px;
+    padding: 40px 5%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    border: none;
+    font-size: 1.15em;
+    font-weight: 500;
+    background-color: #EEF4FF;
+    color: rgba(62, 62, 238);
+    padding: 2.5% 12%;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn-activate{
+    background-color: rgba(62, 62, 238);
+    color: #fff;
+}
+#container-login{
+    margin-top: 10%;
+}
+#container-signin{
+    margin-top: 10%;
+}
+.container-hidden{
+    display: none;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 2.5% 5%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-size: 1em;
+}
+input[type=submit]{
+    background-color: rgba(62, 62, 238);
+    color: #fff;
+    border: none;
+    font-size: 1.15em;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 3.5% 0;
+}

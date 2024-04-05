@@ -43,11 +43,13 @@ body{
 .container-hidden{
     display: none;
 }
+.form-control{
+    margin-bottom: 20px;
+}
 input{
     width: 100%;
     border: none;
     padding: 2.5% 5%;
-    margin-bottom: 20px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     font-size: 1em;
@@ -61,4 +63,14 @@ input[type=submit]{
     cursor: pointer;
     margin-top: 2%;
     padding: 3.5% 0;
+}
+input.success-input{
+    border: 2.5px solid rgba(35, 250, 16, 0.612);
+}
+input.eror-input{
+    border: 2.5px solid rgba(250, 16, 16, 0.612);
+}
+.eror{
+    color: rgba(250, 16, 16, 0.612);
+    width: 100%;
 }
